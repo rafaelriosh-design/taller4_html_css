@@ -1,0 +1,65 @@
+/* RF4 - Menu Principal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #101828;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 16px;
+}
+
+.home {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.sub {
+    color: #b9c2d0;
+    margin-bottom: 28px;
+}
+
+.links {
+    display: grid;
+    gap: 14px;
+    text-align: left;
+}
+
+.link-card {
+    background: #fff;
+    color: #101828;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 16px 18px;
+    display: block;
+}
+
+.link-card strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.link-card span {
+    font-size: 14px;
+    color: #475467;
+}
+
+.note {
+    margin-top: 22px;
+    font-size: 13px;
+    color: #b9c2d0;
+}
